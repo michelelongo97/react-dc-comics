@@ -23,7 +23,50 @@ export default function Header() {
           <p>DC POWER VISA</p>
         </div>
       </section>
-      <section className="second-banner"></section>
+      <section className="second-banner">
+        <div className="row">
+          <div className="col">
+            <h4>DC COMICS</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+            <h4>SHOP</h4>
+            <ul>
+              <li>Shop DC</li>
+              <li>Shop DC Collectibles</li>
+            </ul>
+          </div>
+          <div className="col">
+            <h4>DC</h4>
+            <ul>
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+          </div>
+          <div className="col">
+            <h4>SITES</h4>
+            <ul>
+              <li>DC</li>
+              <li>Mad Magazine</li>
+              <li>DC Kids</li>
+              <li>DC Universe</li>
+              <li>DC Power Visa</li>
+            </ul>
+          </div>
+          <img src="../img/dc-logo-bg.png" />
+        </div>
+      </section>
       <section className="third-banner"></section>
     </footer>
   );

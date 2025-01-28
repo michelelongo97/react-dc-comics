@@ -16,6 +16,11 @@ body {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*header*/
 header nav {
   display: flex;
@@ -79,6 +84,30 @@ main {
 .second-banner {
   min-height: 300px;
   background-image: url("../img/footer-bg.jpg");
+  color: white;
+}
+
+.second-banner ul {
+  list-style: none;
+}
+
+.second-banner h4 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.second-banner ul li {
+  color: #c8cdce;
+  font-size: 12px;
+  padding: 2px 0;
+}
+
+.second-banner .col {
+  padding: 20px 30px;
+}
+
+.second-banner .col:first-child {
+  padding-left: 200px;
 }
 
 .third-banner {
