@@ -112,5 +112,27 @@ main {
 
 .third-banner {
   background-color: #303030;
-  min-height: 100px;
+}
+
+.third-banner .row {
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 14px;
+}
+
+.signup-button {
+  font-size: 16px;
+  padding: 8px 20px;
+  background-color: transparent;
+  color: white;
+  border-color: #0282f9;
+  cursor: pointer;
+}
+
+.third-banner h4 {
+  color: #0282f9;
+}
+
+.third-banner img {
+  padding: 0px 6px;
 }

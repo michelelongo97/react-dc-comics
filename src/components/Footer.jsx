@@ -67,7 +67,21 @@ export default function Header() {
           <img src="../img/dc-logo-bg.png" />
         </div>
       </section>
-      <section className="third-banner"></section>
+      <section className="third-banner">
+        <div className="row">
+          <div>
+            <button className="signup-button">SIGN-UP NOW!</button>
+          </div>
+          <div className="row">
+            <h4>FOLLOW US</h4>
+            <img src="../img/footer-facebook.png" />
+            <img src="../img/footer-twitter.png" />
+            <img src="../img/footer-youtube.png" />
+            <img src="../img/footer-pinterest.png" />
+            <img src="../img/footer-periscope.png" />
+          </div>
+        </div>
+      </section>
     </footer>
   );
 }
