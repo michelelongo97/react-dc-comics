@@ -19,7 +19,7 @@ export default function Header() {
           <p>COMIC SHOP LOCATOR</p>
         </div>
         <div>
-          <img src="../img/buy-comics-digital-comics.png" />
+          <img src="../img/buy-dc-power-visa.svg" className="img-credit" />
           <p>DC POWER VISA</p>
         </div>
       </section>
@@ -28,43 +28,85 @@ export default function Header() {
           <div className="col">
             <h4>DC COMICS</h4>
             <ul>
-              <li>Characters</li>
-              <li>Comics</li>
-              <li>Movies</li>
-              <li>TV</li>
-              <li>Games</li>
-              <li>Videos</li>
-              <li>News</li>
+              <li>
+                <a href="">Characters</a>
+              </li>
+              <li>
+                <a href="">Comics</a>
+              </li>
+              <li>
+                <a href="">Movies</a>
+              </li>
+              <li>
+                <a href="">TV</a>
+              </li>
+              <li>
+                <a href="">Games</a>
+              </li>
+              <li>
+                <a href="">Videos</a>
+              </li>
+              <li>
+                <a href="">News</a>
+              </li>
             </ul>
             <h4>SHOP</h4>
             <ul>
-              <li>Shop DC</li>
-              <li>Shop DC Collectibles</li>
+              <li>
+                <a href="">Shop DC</a>
+              </li>
+              <li>
+                <a href="">Shop DC Collectibles</a>
+              </li>
             </ul>
           </div>
           <div className="col">
             <h4>DC</h4>
             <ul>
-              <li>Characters</li>
-              <li>Comics</li>
-              <li>Movies</li>
-              <li>TV</li>
-              <li>Games</li>
-              <li>Videos</li>
-              <li>News</li>
+              <li>
+                <a href="">Characters</a>
+              </li>
+              <li>
+                <a href="">Comics</a>
+              </li>
+              <li>
+                <a href="">Movies</a>
+              </li>
+              <li>
+                <a href="">TV</a>
+              </li>
+              <li>
+                <a href="">Games</a>
+              </li>
+              <li>
+                <a href="">Videos</a>
+              </li>
+              <li>
+                <a href="">News</a>
+              </li>
             </ul>
           </div>
           <div className="col">
             <h4>SITES</h4>
             <ul>
-              <li>DC</li>
-              <li>Mad Magazine</li>
-              <li>DC Kids</li>
-              <li>DC Universe</li>
-              <li>DC Power Visa</li>
+              <li>
+                <a href="">DC</a>
+              </li>
+              <li>
+                <a href="">Mad Magazine</a>
+              </li>
+              <li>
+                <a href="">DC Kids</a>
+              </li>
+              <li>
+                <a href="">DC Universe</a>
+              </li>
+              <li>
+                <a href="">DC Power Visa</a>
+              </li>
             </ul>
           </div>
-          <img src="../img/dc-logo-bg.png" />
+          <img src="../img/dc-logo-bg.png" alt="biglogo" className="big-logo" />
         </div>
       </section>
       <section className="third-banner">

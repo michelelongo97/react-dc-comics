@@ -74,15 +74,19 @@ main {
 }
 
 .first-banner img {
-  padding: 30px 0;
+  padding: 60px 0;
 }
 
 .first-banner p {
-  padding: 80px 10px;
+  padding: 120px 20px;
+}
+
+.img-credit {
+  width: 120px;
 }
 
 .second-banner {
-  min-height: 300px;
+  min-height: 400px;
   background-image: url("../img/footer-bg.jpg");
   color: white;
 }
@@ -102,12 +106,25 @@ main {
   padding: 2px 0;
 }
 
+.second-banner ul li a {
+  text-decoration: none;
+  color: #c8cdce;
+  cursor: pointer;
+}
+
 .second-banner .col {
   padding: 20px 30px;
 }
 
 .second-banner .col:first-child {
   padding-left: 200px;
+}
+
+.big-logo {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 400px;
 }
 
 .third-banner {
