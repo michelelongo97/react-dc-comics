@@ -56,12 +56,35 @@ header {
 main {
   background-color: black;
   color: white;
-  font-size: 30px;
 }
 
 .hero {
   background-image: url("../img/jumbotron.jpg");
   min-height: 400px;
+}
+
+.current-series {
+  background-color: #0282f9;
+  width: 170px;
+  position: relative;
+  text-align: center;
+  top: -20px;
+}
+
+.current-series p {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.main-btn-cnt {
+  padding: 16px;
+  text-align: center;
+}
+.main-btn {
+  background-color: #0282f9;
+  color: white;
+  font-weight: 700;
+  padding: 12px 50px;
 }
 
 /*footer*/
