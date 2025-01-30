@@ -56,8 +56,12 @@ header {
 main {
   background-color: black;
   color: white;
-  padding: 70px;
   font-size: 30px;
+}
+
+.hero {
+  background-image: url("../img/jumbotron.jpg");
+  min-height: 400px;
 }
 
 /*footer*/
