@@ -63,7 +63,6 @@ main {
 /*footer*/
 .first-banner {
   background-color: #0282f9;
-  min-height: 100px;
   display: flex;
   justify-content: center;
 }
@@ -75,14 +74,15 @@ main {
 
 .first-banner img {
   padding: 60px 0;
+  height: 180px;
 }
 
 .first-banner p {
-  padding: 120px 20px;
+  padding: 80px 20px;
 }
 
 .img-credit {
-  width: 120px;
+  width: 70px;
 }
 
 .second-banner {
@@ -124,17 +124,18 @@ main {
   width: 400px;
   height: 400px;
   position: absolute;
-  right: 400px;
+  right: 200px;
 }
 
 .third-banner {
   background-color: #303030;
+  min-height: 120px;
 }
 
 .third-banner .row {
   justify-content: space-around;
   align-items: center;
-  padding: 12px 14px;
+  padding: 20px 14px;
 }
 
 .signup-button {
