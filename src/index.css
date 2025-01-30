@@ -76,6 +76,10 @@ main {
   font-weight: 700;
 }
 
+.comics-cover {
+  width: 170px;
+}
+
 .main-btn-cnt {
   padding: 16px;
   text-align: center;
