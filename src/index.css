@@ -77,7 +77,12 @@ main {
 }
 
 .comics-cover {
-  width: 170px;
+  height: 170px;
+}
+
+.col {
+  width: 200px;
+  padding: 20px 14px;
 }
 
 .main-btn-cnt {
